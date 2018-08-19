@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>minoeru_homepage</title>
+	<link rel="icon" href="images/mis.ico" type="image/vnd.microsoft.icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="top">
+	<meta name="keywords" content="minoeru,HTML,practice,toppage">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/openclose.js"></script>
+</head>
+<body>
+	<!--800px以下端末-->
+	<div id="sh">
+		<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Minoeru Site"></a></h1>
+		<nav id="menubar-s">
+			<ul>
+				<li><a href="index.html"><span>ホーム</span>Home</a></li>
+				<li><a href="about.html"><span>minoeru</span>Profile</a></li>
+				<li><a href="works.html"><span>作品</span>Works</a></li>
+				<li><a href="link.html"><span>リンク</span>Link</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="container">
+
+		<div id="main">
+
+			<section id="new" class="box">
+				<h2 id="newinfo_hdr" class="close"><span>Information</span>更新情報</h2>
+				<dl id="newinfo">
+					<dt>2018/08/15</dt>
+					<dd>ホームページ公開。<span class="newicon">NEW</span></dd>
+				</dl>
+				<!--ここに追加していく-->
+			</section>
+
+			<section class="box">
+
+				<h2><span>Read Me</span>このサイトについて</h2>
+
+				<h3>詳細情報</h3>
+				<p>当サイトはサイト主がWeb関連の練習のため作成したホームページです。</p>
+				<p>簡単な記事などを不定期で更新して行く予定です。</p>
+				<p>バグや改善点、質問等がありましたら@minoeru_botやminoeruy.home[at]gmail.comへ連絡をお願いします。</p>
+
+			</section>
+
+			<!-- minoeruのQiita>
+			<section>
+				<a href="https://qiita.com/minoeru" data-qiita-widget data-username="minoeru">minoeruのQiita投稿</a>
+				<script src="https://qiita-widget.suin.io/widget.js" defer></script>
+			</section>
+			<-->
+
+			<section>
+				<!-- Twiter 参考サイト"https://publish.twitter.com/"-->
+				<a class="twitter-timeline" href="https://twitter.com/minoeru_bot?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter transparent" data-theme="dark" data-link-color="#bc8f8f">Tweets by minoeru_bot</a>
+				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</section>
+
+		</div>
+		<!--/main-->
+
+		<div id="sub">
+
+			<!--801px以上端末ロゴ-->
+			<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Minoeru Site"></a></h1>
+
+			<!--801px以上端末-->
+			<nav id="menubar">
+				<ul>
+					<li><a href="index.html"><span>ホーム</span>Home</a></li>
+					<li><a href="about.html"><span>minoeru</span>Profile</a></li>
+					<li><a href="works.html"><span>作品</span>Works</a></li>
+					<li><a href="link.html"><span>リンク</span>Link</a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<!--/sub-->
+
+		<p id="pagetop"><a href="#">↑</a></p>
+
+		<footer>
+			<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+		</footer>
+
+	</div>
+	<!--/container-->
+
+	<!--更新情報の開閉処理条件設定　800px以下-->
+	<script type="text/javascript">
+	if (OCwindowWidth() <= 800) {
+		open_close("newinfo_hdr", "newinfo");
+	}
+</script>
+
+<!--メニューの３本バー-->
+<div id="menubar_hdr" class="close"><span></span><span></span><span></span></div>
+<!--メニューの開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("menubar_hdr", "menubar-s");
+}
+</script>
+</body>
+</html>
