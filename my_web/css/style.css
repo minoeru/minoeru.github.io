@@ -117,6 +117,8 @@ a:hover {
 }
 /*ボックス内の画像*/
 #main .list figure img {
+	width: 200px;
+	height: 100px;
 	border-radius: 200px;	/*角丸のサイズ。適当に大きめに設定しておけばOK。*/
 }
 /*ボックス内のh3タグ*/
