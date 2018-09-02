@@ -49,54 +49,68 @@
 
 			</section>
 
-			<!-- minoeruのQiita>
-			<section>
-				<a href="https://qiita.com/minoeru" data-qiita-widget data-username="minoeru">minoeruのQiita投稿</a>
-				<script src="https://qiita-widget.suin.io/widget.js" defer></script>
-			</section>
-			<-->
-
-			<section>
+			<section class="mb50">
+				<h2><span>Twitter</span>ツイッター</h2>
 				<!-- Twiter 参考サイト"https://publish.twitter.com/"-->
-				<a class="twitter-timeline" href="https://twitter.com/minoeru_xavier?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter transparent" data-theme="dark" data-link-color="#bc8f8f">Tweets by minoeru_bot</a>
+				<a class="twitter-timeline" href="https://twitter.com/minoeru_xavier?ref_src=twsrc%5Etfw" data-chrome="noheader nofooter transparent" data-theme="dark" data-link-color="#bc8f8f">Tweets by minoeru_xavier</a>
 				<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</section>
 
-		</div>
-		<!--/main-->
+			<section class="mb50">
+				<h2><span>Bookshelf</span>既読本</h2>
+			</section>
 
-		<div id="sub">
+			<section>
+				<script type="text/javascript" src="//widget.booklog.jp/blogparts/js/booklog_minishelf.js?black_disp" id="booklog_minishelf"></script>
+				<script type="text/javascript" src="//api.booklog.jp/json/minoeru138?category=0&count=5&callback=booklog_minishelf"></script>
+			</section>
 
-			<!--801px以上端末ロゴ-->
-			<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Minoeru Site"></a></h1>
 
-			<!--801px以上端末-->
-			<nav id="menubar">
-				<ul>
-					<li><a href="index.html"><span>ホーム</span>Home</a></li>
-					<li><a href="about.html"><span>minoeru</span>Profile</a></li>
-					<li><a href="works.html"><span>作品</span>Works</a></li>
-					<li><a href="link.html"><span>リンク</span>Link</a></li>
-				</ul>
-			</nav>
+			<!-- minoeruのQiita>
+			<section>
+			<a href="https://qiita.com/minoeru" data-qiita-widget data-username="minoeru">minoeruのQiita投稿</a>
+			<script src="https://qiita-widget.suin.io/widget.js" defer></script>
+		</section>
 
-		</div>
-		<!--/sub-->
+		<-->
 
-		<p id="pagetop"><a href="#">↑</a></p>
 
-		<footer>
-			<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-		</footer>
 
 	</div>
-	<!--/container-->
+	<!--/main-->
 
-	<!--更新情報の開閉処理条件設定　800px以下-->
-	<script type="text/javascript">
-	if (OCwindowWidth() <= 800) {
-		open_close("newinfo_hdr", "newinfo");
-	}
+	<div id="sub">
+
+		<!--801px以上端末ロゴ-->
+		<h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="Minoeru Site"></a></h1>
+
+		<!--801px以上端末-->
+		<nav id="menubar">
+			<ul>
+				<li><a href="index.html"><span>ホーム</span>Home</a></li>
+				<li><a href="about.html"><span>minoeru</span>Profile</a></li>
+				<li><a href="works.html"><span>作品</span>Works</a></li>
+				<li><a href="link.html"><span>リンク</span>Link</a></li>
+			</ul>
+		</nav>
+
+	</div>
+	<!--/sub-->
+
+	<p id="pagetop"><a href="#">↑</a></p>
+
+	<footer>
+		<span class="pr"><a href="http://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+	</footer>
+
+</div>
+<!--/container-->
+
+<!--更新情報の開閉処理条件設定　800px以下-->
+<script type="text/javascript">
+if (OCwindowWidth() <= 800) {
+	open_close("newinfo_hdr", "newinfo");
+}
 </script>
 
 <!--メニューの３本バー-->
