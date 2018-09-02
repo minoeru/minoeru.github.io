@@ -492,5 +492,6 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 /*自作
 ---------------------------------------------------------------------------*/
 .bookshelf{
-	zoom: 200%;
+	width: 80%;
+	text-align: center;
 }
