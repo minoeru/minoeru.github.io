@@ -341,7 +341,12 @@ img.fr {float: right;margin-left: 10px;margin-bottom: 10px;}
 img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 .big1 {font-size: 30px;letter-spacing: 0.2em;}
 .mini1 {font-size: 11px;}
-
+/*自作
+---------------------------------------------------------------------------*/
+.bookshelf{
+	width: 80%;
+	text-align: center;
+}
 
 
 /*画面幅800px以下の設定
@@ -480,18 +485,4 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 	.ws,.wl {width: 90%;}
 	img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
-}
-
-
-
-
-
-
-
-
-/*自作
----------------------------------------------------------------------------*/
-.bookshelf{
-	width: 80%;
-	text-align: center;
 }
