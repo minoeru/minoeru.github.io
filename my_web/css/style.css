@@ -481,3 +481,16 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 	img.fr,img.fl {float: none;margin: 0;width: 100%;}
 
 }
+
+
+
+
+
+
+
+
+/*自作
+---------------------------------------------------------------------------*/
+.bookshelf{
+	zoom: 200%;
+}
