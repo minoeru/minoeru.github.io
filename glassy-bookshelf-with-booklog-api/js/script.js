@@ -1,7 +1,7 @@
 jQuery(function($) {
 
 var o = {
-  account : 'minoeru_xavier',                // ブクログのアカウント
+  account : 'minoeru138',                // ブクログのアカウント
   count   : 3,                   // 取得するアイテム数
   category: '',             // 取得するカテゴリ(空でもいい)
   status  : '',                   // 読書状況
