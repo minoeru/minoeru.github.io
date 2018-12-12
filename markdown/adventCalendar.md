@@ -11,6 +11,7 @@
 数多あるPodcastの中でも自分が定期的に聴いているPodcastの簡単な内容とリンクを紹介します。ここで紹介するPodcastは全てIT関連やガジェット関連について話していることが多い番組なので、興味のある人は是非聞いてみてください。
 
 ###### Rebuild.fm
+![](https://minoeru.github.io/markdown/images/rebuild.png)
 Rebuild.fmとは、宮川達彦というPerlの凄い人が制作しているpodcastです。
 私がPodcastと出会ったのも、このPodcastを明日の記事担当であるTsuzu君に紹介されたのが始まりです。
 毎週1人のゲストを呼び、2時間程度の会話をする形式です。
@@ -26,9 +27,9 @@ Mozaic.fmとは上の２つのPodcastと異なり、技術系に特化した形�
 
 
 ###### リンク欄
-- Rebuild :https://rebuild.fm
-- Backspace :http://backspace.fm
-- Mozaic :https://mozaic.fm
+- [Rebuild.fm](https://rebuild.fm)
+- [Backspace.fm](http://backspace.fm)
+- [Mozaic.fm ](https://mozaic.fm)
 
 ##### まとめ
 紹介しておきながら実はRebuild.fm以外そんなに聞いたことがなくて紹介が雑になってしまいましたが、この記事を読んで興味を持った人がいれば是非聞いてみてください。FGOの周回が捗ります。一緒にBOX３桁開けましょう☆
