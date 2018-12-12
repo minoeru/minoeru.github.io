@@ -11,7 +11,8 @@
 数多あるPodcastの中でも自分が定期的に聴いているPodcastの簡単な内容とリンクを紹介します。ここで紹介するPodcastは全てIT関連やガジェット関連について話していることが多い番組なので、興味のある人は是非聞いてみてください。
 
 ###### Rebuild.fm
-![](https://minoeru.github.io/markdown/images/rebuild.png)
+
+![](https://minoeru.github.io/markdown/images/advent/rebuild.png)
 Rebuild.fmとは、宮川達彦というPerlの凄い人が制作しているpodcastです。
 私がPodcastと出会ったのも、このPodcastを明日の記事担当であるTsuzu君に紹介されたのが始まりです。
 毎週1人のゲストを呼び、2時間程度の会話をする形式です。
@@ -20,9 +21,13 @@ Rebuild.fmとは、宮川達彦というPerlの凄い人が制作しているpod
 基本的に軽いノリで話が進み、内容もそこまで難しいものがなく、難しい用語が出た時も宮川さんが補足説明を加えてくれるためわかりやすいです。
 
 ###### Backspace.fm
+
+![](https://minoeru.github.io/markdown/images/advent/backspace.png)
 Backspace.fmとは、ソフトウェアエンジニアのdrikinさんなどが製作しているPodcastです。このPodcastは、毎週放送されており、一週間のテクノロジ系のニュースをまとめて配信しています。こちらも軽い感じで話が進んでいくため、聴きやすくなっています。むしろ、内容が軽すぎて技術的な話がほとんどない気もしますが、面白いので、いい気分転換になります。Rebuild.fmを聞いていると、こちらに出演している人がゲストで呼ばれることがたまにあるので。あーあのひとだーってなると思います。
 
 ###### Mozaic.fm
+
+![](https://minoeru.github.io/markdown/images/advent/mozaic.png)
 Mozaic.fmとは上の２つのPodcastと異なり、技術系に特化した形のPodcastです。毎週一つのテーマに沿ってそのテーマの専門家を交えて話を進めて行く形式になっています。テーマはネットワーク系が中心となっています。割と細かそうな内容まで踏み込んでいる感じがしますが、私はそこまで知識がないのでよくわかっておりません。有識者に是非聞いてみてもらい噛み砕いてご教授願いたいと思っております。
 
 
