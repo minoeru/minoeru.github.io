@@ -1,5 +1,5 @@
-# Advent Calendar 18日目だよ！！！！
-## Podcastだぜっ！！！！
+# Podcast
+## Advent Calendar 18日目だよ！！！！
 ###### この記事は、[mis.w 53rd AdventCalender 2018](https://adventar.org/calendars/3260)の18日目の記事です。
 　本日の担当は53代プロ研のミノエルです。最近自分の中で流行っているPodcastについてつらつらと綴っていきたいと思います。
 ##### 導入
