@@ -65,13 +65,13 @@
  Windows版はOSの問題上SSHが標準で使用できないためSourcetreeにSSH関係のものが付属しているらしいので、Mac版用に必要なことを書いていきます。<br>
 
  まず、ターミナルを開きましょう
-  ![](g_11.png)
+  ![](https://minoeru.github.io/markdown/images/github/g_11.png)
 
  コマンドを打てる画面が開くので、[ssh-keygen -t rsa]と入力し、エンターを押しましょう。
 
  (rsaとは、RSA暗号という、十分大きな桁数を持った合成数の素因数分解が困難であることを安全性の根拠とした公開鍵暗号です。詳しく知りたい人は検索すると色々な情報が出てくると思います)
 
- ![](g_12.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_12.png)
 
  ##### Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
  と画面に出ると思うので、github用のSSH鍵とわかるような名前をつけてエンターを押しましょう
@@ -92,28 +92,28 @@
  最後に
  [ssh-add ~/.ssh/id_rsa]とコマンドを打つことで、今生成した鍵を登録できます。
 
- ![](g_13.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_13.png)
 
  [GitHub](https://github.com)に戻って、SSH鍵の追加を行いましょう。右上のアイコンをクリックし、「Setting」をクリックしましょう。
 
- ![](g_14.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_14.png)
 
  左のバーから「SSH and GPG keys」をクリックしましょう
 
- ![](g_15.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_15.png)
 
  このような画面が出ると思うので、「Add SSH key」をクリックしましょう
  (この画面では、すでにssh鍵が追加されているので実際の画面とは異なります)
 
- ![](g_16.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_16.png)
 
  そうすると、下のような画面が表示されると思うので、適当なTitleとip_rsa.pubの中身を書きましょう。
 
- ![](g_17.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_17.png)
 
  ip_rsa.pubの中身は、このように開くことで中を見ることができます。<br>
  AddKeyをクリックすることで鍵の登録が完了します。
 
- ![](g_18.png)
+ ![](https://minoeru.github.io/markdown/images/github/g_18.png)
 
  これで、SSH鍵の作成と登録は終わりです。

@@ -116,8 +116,8 @@ GitHubに行って結果を確認してみましょう。<br>
 
 以下にgitの勉強ができるオススメサイトを載せていきます。
 
-[hegehege](#)
-[hegehege](#)
-[hegehege](#)
-[hegehege](#)
+[hegehege](#)<br>
+[hegehege](#)<br>
+[hegehege](#)<br>
+[hegehege](#)<br>
 [hegehege](#)
