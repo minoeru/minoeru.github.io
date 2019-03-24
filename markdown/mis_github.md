@@ -54,7 +54,7 @@
 
  ![](https://minoeru.github.io/markdown/images/github/g_10.png)
 
- ### SSH鍵の作成
+### SSH鍵の作成
  このままでも通信はできるのですが、送信されるデータが暗号化されません。なので、SSH鍵を作成していきたいと思います<br>
  (※ここから先は設定しなくても動くので余力のある人だけで大丈夫です)
 
@@ -65,7 +65,8 @@
  Windows版はOSの問題上SSHが標準で使用できないためSourcetreeにSSH関係のものが付属しているらしいので、Mac版用に必要なことを書いていきます。<br>
 
  まず、ターミナルを開きましょう
-  ![](https://minoeru.github.io/markdown/images/github/g_11.png)
+
+ ![](https://minoeru.github.io/markdown/images/github/g_11.png)
 
  コマンドを打てる画面が開くので、[ssh-keygen -t rsa]と入力し、エンターを押しましょう。
 
@@ -73,24 +74,24 @@
 
  ![](https://minoeru.github.io/markdown/images/github/g_12.png)
 
- ##### Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
- と画面に出ると思うので、github用のSSH鍵とわかるような名前をつけてエンターを押しましょう
+##### Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
+ と画面に出ると思うので、エンターを押しましょう（明示的に名前をつけることもできますが、今回は初なのでエンターだけで大丈夫です）
  そうすると
- ##### Enter passphrase (empty for no passphrase):
+##### Enter passphrase (empty for no passphrase):
  と画面に出てくると思います。今回は特にパスワードが必要ないため、エンターを押しましょう
- ##### Enter same passphrase again:
+##### Enter same passphrase again:
  これもエンターだけで大丈夫です。
- ##### Your identification has been saved in (入力した名前).
- ##### Your public key has been saved in (入力した名前).pub.
- ##### The key fingerprint is:
- ##### 11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11(英数字の一覧) vagrant@localhost.localdomain
- ##### The key's randomart image is:
- ##### 以下略
+##### Your identification has been saved in ip_rsa.
+##### Your public key has been saved in ip_rsa.pub.
+##### The key fingerprint is:
+##### 11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11(英数字の一覧) vagrant@localhost.localdomain
+##### The key's randomart image is:
+##### 以下略
  と表示され、ssh鍵が生成されます。
  これで、.ssh以下にip_rsa(秘密鍵)とip_rsa.pub(公開鍵)が生成されます。
 
  最後に
- [ssh-add ~/.ssh/id_rsa]とコマンドを打つことで、今生成した鍵を登録できます。
+ [ssh-add ~/.ssh/ip_rsa]とコマンドを打つことで、今生成した鍵を登録できます。
 
  ![](https://minoeru.github.io/markdown/images/github/g_13.png)
 
