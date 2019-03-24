@@ -75,23 +75,23 @@
  ![](https://minoeru.github.io/markdown/images/github/g_12.png)
 
 #### Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
- と画面に出ると思うので、エンターを押しましょう（明示的に名前をつけることもできますが、今回は初なのでエンターだけで大丈夫です）
+ と画面に出ると思うので、エンターを押しましょう（明示的に名前をつけることもできますが、今回は初なのでエンターだけで大丈夫です）<br>
  そうすると
 #### Enter passphrase (empty for no passphrase):
  と画面に出てくると思います。今回は特にパスワードが必要ないため、エンターを押しましょう
 #### Enter same passphrase again:
  これもエンターだけで大丈夫です。
-#### Your identification has been saved in ip_rsa.
-#### Your public key has been saved in ip_rsa.pub.
+#### Your identification has been saved in id_rsa.
+#### Your public key has been saved in id_rsa.pub.
 #### The key fingerprint is:
 #### 11:11:11:11:11:11:11:11:11:11:11:11:11:11:11:11(英数字の一覧) vagrant@localhost.localdomain
 #### The key's randomart image is:
 #### 以下略
  と表示され、ssh鍵が生成されます。
- これで、.ssh以下にip_rsa(秘密鍵)とip_rsa.pub(公開鍵)が生成されます。
+ これで、.ssh以下にid_rsa(秘密鍵)とid_rsa.pub(公開鍵)が生成されます。
 
  最後に
- [ssh-add ~/.ssh/ip_rsa]とコマンドを打つことで、今生成した鍵を登録できます。
+ [ssh-add ~/.ssh/id_rsa]とコマンドを打つことで、今生成した鍵を登録できます。
 
  ![](https://minoeru.github.io/markdown/images/github/g_13.png)
 
@@ -108,11 +108,11 @@
 
  ![](https://minoeru.github.io/markdown/images/github/g_16.png)
 
- そうすると、下のような画面が表示されると思うので、適当なTitleとip_rsa.pubの中身を書きましょう。
+ そうすると、下のような画面が表示されると思うので、適当なTitleとid_rsa.pubの中身を書きましょう。
 
  ![](https://minoeru.github.io/markdown/images/github/g_17.png)
 
- ip_rsa.pubの中身は、このように開くことで中を見ることができます。<br>
+ id_rsa.pubの中身は、このように開くことで中を見ることができます。<br>
  AddKeyをクリックすることで鍵の登録が完了します。
 
  ![](https://minoeru.github.io/markdown/images/github/g_18.png)
