@@ -1,6 +1,6 @@
 # Sourcetree使い方、Git関連
 
-前回の記事でSourcetreeのインストール方法はわかったでしょうか？
+[Sourcetreeインストールガイド(Mac版)](https://minoeru.github.io/markdown/mis_sourcetree.html)でSourcetreeのインストール方法はわかったでしょうか？
 今回はSourcetreeの使い方を見ていきます。
 
 
@@ -12,69 +12,69 @@
 ### 個人での開発
 
 まず、Githubでリポジトリを作成していきましょう
-(GitHubの使い方がわからない方は[GitHubアカウント作成](#)を参考にしてください)
+(GitHubの使い方がわからない方は[GitHubアカウント作成](https://minoeru.github.io/markdown/mis_github.html)を参考にしてください)
 
-![](s2_1.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_1.png)
 
 リポジトリの作成が終了すると、以下のような画面になるので、画面に表示されているURLをコピーして下さい。
 
-![](s2_2.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_2.png)
 
 Sourcetreeに戻ったら、新規ボタンから「URLから　クローン」を選択してください。
 
-![](s2_3.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_3.png)
 
 「リポジトリをクローン」の画面が出てくるので、必要事項を入力してください。
  - ソースURL:先ほどコピーしたリポジトリのURLです
  - 保存先のパス:ローカル環境(自分のパソコンのなか)のどこに保存するかです
  - 名前:保存したファイルの名前になります
 
-![](s2_4.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_4.png)
 
 このように、保存先のパスで指定した場所を確認すると、しっかりとクローンができていることが確認できます。
 
-![](s2_5.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_5.png)
 
 次に、Sourcetreeに戻って操作方法を学びましょう。
 クローン直後なので今は何も操作できません。
 
-![](s2_6.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_6.png)
 
 先ほどコピーしたローカルのファイルにファイルを追加しましょう。
 適当なテキストファイルを追加しました。
 
-![](s2_7.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_7.png)
 
 Sourcetreeを確認してみると、ファイルに変更があったことが確認できます。(右の❶)
 
-![](s2_8.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_8.png)
 
 クリックして開くと、大画面左に変更したファイル一覧、大画面右にその変更内容が確認できます。
 
-![](s2_9.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_9.png)
 
 左上の「コミット」ボタンを押すことで、コミットメッセージの記入とコミットを行うことができます。
 (コミットとは、前回の変更から今回の変更までのひとかたまりの処理の結果を確定することです。
   今回の例を用いると、hoge.txtの追加を確定する。ということになります)
 ※コミットメッセージはできるだけ内容がわかるようにしましょう
 
-![](s2_10.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_10.png)
 
 コミットボタンを押すことで、コミットが終了します。ブランチ(今までのgitの履歴を表すもの)を確認すると、コミットがうまく行ったことが確認できます。
 
-![](s2_11.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_11.png)
 
 コミット終わったら、次はローカルの変更履歴をリモートと共有しましょう。
 プッシュボタンを押すことで今回の変更をアップロードすることができます。
 こうすることで、リモートの状態をローカルの状態と同期させることができます。
 
-![](s2_12.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_12.png)
 
-![](s2_13.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_13.png)
 
 これでプッシュは完了です。
 
-![](s2_14.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_14.png)
 
 GitHubに行って結果を確認してみましょう。
 このように、リモートのリポジトリにも変更が適用され、ローカルと同じ状態になったことが確認できました。
@@ -96,19 +96,19 @@ GitHubに行って結果を確認してみましょう。
 
 まずはhoge.txtを若干編集しました
 
-![](s2_16.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_16.png)
 
 ブランチタブから、プルリクエストを作成をクリックしましょう。
 
-![](s2_17.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_17.png)
 
 以下のような画面が出てくるので、Web上でプルリクエストを作成をクリックしましょう
 
-![](s2_18.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_18.png)
 
 今回は個人開発状態なので何も出てきませんが、本来はここでプルリクエスト用のコメントを書く欄が出てくるので、そこで記入、送信をします。
 
-![](s2_19.png)
+![](https://minoeru.github.io/markdown/images/sourcetree/s2_19.png)
 
 ### オススメサイト
 

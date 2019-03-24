@@ -13,40 +13,40 @@
 ### ダウンロード
  [公式サイト](https://ja.atlassian.com/software/sourcetree)からダウンロードしてきましょう。
  まず、Max OS X向けダウンロードをクリックしましょう　
- ![](s_1.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_1.png)
 
  次に、チェックボックスにチェックを入れ、ダウンロードのボタンを押しましょう
 
- ![](s_2.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_2.png)
 
  右上のダウンロードバー(右上から３番目の水色のバー)が最後まで行ったらFinderのダウンロードに移動しましょう
 
- ![](s_3.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_3.png)
 
  この画面まできたら、左クリックで開きましょう
 
- ![](s_4.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_4.png)
 
  問題ないので開くクリックしてください
 
- ![](s_5.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_5.png)
 
  こちらも指示されたボタンをクリック
 
- ![](s_6.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_6.png)
 
  SourceTreeが開けたら右上の歯車マークから、アカウントを選択してください。
 
- ![](s_7.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_7.png)
 
  アカウント画面が出るので、左下の追加をクリックしてください
 
- ![](s_8.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_8.png)
 
  ホストをGitHubに変更し、接続アカウントをクリックしてください。
- (GitHubのアカウントが作成できていない人は、[GitHubアカウント作成](#)を参考に作成してください)
+ (GitHubのアカウントが作成できていない人は、[GitHubアカウント作成](https://minoeru.github.io/markdown/mis_github.html)を参考に作成してください)
 
- ![](s_9.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_9.png)
 
  クリックすると、GitHubへのログインが促されるのでログインしてください。
  ユーザ名に自分のユーザ名が表示されたら保存を押してください
@@ -54,23 +54,23 @@
 ### リポジトリの作成
 　新規ボタンをクリックし、URLからクローンを押します。
 
- ![](s_10.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_10.png)
 
  以下のようなGitHubのリポジトリのURLをコピー＆ペーストする事でSourcetreeで管理することができます
 
- ![](s_11.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_11.png)
 
  全て埋まったらクローンを押して下さい。SourceTreeで管理できるようになります
 
- ![](s_12.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_12.png)
 
 ### SourcetreeでGit
  SourcetreeでGitを行う場合、まずこの画面で使いたいリポジトリを選択します
 
- ![](s_13.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_13.png)
 
  これがメインで作業する画面です
 
- ![](s_14.png)
+ ![](https://minoeru.github.io/markdown/images/sourcetree/s_14.png)
 
- この先は、[Sourcetree使い方、Git関連](#)を参考にしてください。
+ この先は、[Sourcetree使い方、Git関連](https://minoeru.github.io/markdown/mis_sourcetree2.html)を参考にしてください。
