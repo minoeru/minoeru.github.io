@@ -1,6 +1,6 @@
 # Unityインストールガイド(Mac版)
 
-- 目次
+### 目次
  - Unityとは
  - ダウンロード
 
@@ -52,7 +52,7 @@ Agreeを押しましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_11.png)
 
-インストールするものが選べるので必要なものを洗濯してContinueをクリックしましょう
+インストールするものが選べるので必要なものを選択してContinueをクリックしましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_12.png)
 
