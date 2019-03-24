@@ -43,17 +43,17 @@
 
  ![](https://minoeru.github.io/markdown/images/sourcetree/s_8.png)
 
- ホストをGitHubに変更し、接続アカウントをクリックしてください。
+ ホストをGitHubに変更し、接続アカウントをクリックしてください。<br>
  (GitHubのアカウントが作成できていない人は、[GitHubアカウント作成](https://minoeru.github.io/markdown/mis_github.html)を参考に作成してください)
 
  ![](https://minoeru.github.io/markdown/images/sourcetree/s_9.png)
 
- クリックすると、GitHubへのログインが促されるのでログインしてください。
+ クリックすると、GitHubへのログインが促されるのでログインしてください。<br>
  ユーザ名に自分のユーザ名が表示されたら保存を押してください
 
 ### リポジトリの作成
-　新規ボタンをクリックし、URLからクローンを押します。
-(※リポジトリ：ファイルなどの状態を記録する場所。内容の変更履歴を記録することができる。)
+　新規ボタンをクリックし、URLからクローンを押します。<br>
+(※リポジトリ：ファイルなどの状態を記録する場所。内容の変更履歴を記録することができる。)<br>
 (※クローン：情報をコピーすること。)
 
  ![](https://minoeru.github.io/markdown/images/sourcetree/s_10.png)
