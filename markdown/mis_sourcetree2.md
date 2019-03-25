@@ -116,8 +116,10 @@ GitHubに行って結果を確認してみましょう。<br>
 
 以下にgitの勉強ができるオススメサイトを載せていきます。
 
+[サルでもわかるGit入門](https://backlog.com/ja/git-tutorial/)
+
+
+[世界一優しいGitHubの使い方入門講座](https://tech-camp.in/note/technology/4938/)<br>
+<!-- [hegehege](#)<br>
 [hegehege](#)<br>
-[hegehege](#)<br>
-[hegehege](#)<br>
-[hegehege](#)<br>
-[hegehege](#)
+[hegehege](#) -->
