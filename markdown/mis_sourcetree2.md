@@ -1,6 +1,8 @@
 # Sourcetree使い方、Git関連
 
-[Sourcetreeインストールガイド(Mac版)](https://minoeru.github.io/markdown/mis_sourcetree.html)でSourcetreeのインストール方法はわかったでしょうか？<br>
+[Sourcetreeインストールガイド(Mac版)](https://minoeru.github.io/markdown/mis_sourcetree.html)でSourcetreeのインストール方法はわかったでしょうか？
+
+
 今回はSourcetreeの使い方を見ていきます。
 
 
