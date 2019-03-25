@@ -13,7 +13,9 @@
 
 ### 個人での開発
 
-まず、Githubでリポジトリを作成していきましょう<br>
+まず、Githubでリポジトリを作成していきましょう
+
+
 (GitHubの使い方がわからない方は[GitHubアカウント作成](https://minoeru.github.io/markdown/mis_github.html)を参考にしてください)
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_1.png)
@@ -37,12 +39,18 @@ Sourcetreeに戻ったら、新規ボタンから「URLから　クローン」�
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_5.png)
 
-次に、Sourcetreeに戻って操作方法を学びましょう。<br>
-クローン直後なので今は何も操作できません。<br>
+次に、Sourcetreeに戻って操作方法を学びましょう。
+
+
+クローン直後なので今は何も操作できません。
+
+
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_6.png)
 
-先ほどコピーしたローカルのファイルにファイルを追加しましょう。<br>
+先ほどコピーしたローカルのファイルにファイルを追加しましょう。
+
+
 hoge.txtを追加しました。
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_7.png)
@@ -55,10 +63,15 @@ Sourcetreeを確認してみると、ファイルに変更があったことが�
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_9.png)
 
-左上の「コミット」ボタンを押すことで、コミットメッセージの記入とコミットを行うことができます。<br>
+左上の「コミット」ボタンを押すことで、コミットメッセージの記入とコミットを行うことができます。
+
+
 (コミットとは、前回の変更から今回の変更までのひとかたまりの処理の結果を確定することです。
-  今回の例を用いると、hoge.txtの追加を確定する。ということになります)<br>
-※コミットメッセージはできるだけ内容がわかるようにしましょう<br>
+  今回の例を用いると、hoge.txtの追加を確定する。ということになります)
+
+
+※コミットメッセージはできるだけ内容がわかるようにしましょう
+
 
 ![](https://minoeru.github.io/markdown/images/sourcetree/s2_10.png)
 
