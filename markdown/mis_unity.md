@@ -54,7 +54,8 @@ Agreeを押しましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_11.png)
 
-インストールするものが選べるので必要なものを選択してContinueをクリックしましょう
+インストールするものが選べるので必要なものを選択してContinueをクリックしましょう<br>
+最新バージョンの(一番上の)Unityと、Visual Studio for Macをインストールすれば十分だと思います
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_12.png)
 
