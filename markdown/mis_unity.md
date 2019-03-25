@@ -55,7 +55,9 @@ Agreeを押しましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_11.png)
 
-インストールするものが選べるので必要なものを選択してContinueをクリックしましょう<br>
+インストールするものが選べるので必要なものを選択してContinueをクリックしましょう
+
+
 最新バージョンの(一番上の)Unityと、Visual Studio for Macをインストールすれば十分だと思います
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_12.png)
@@ -77,9 +79,13 @@ Agreeを押しましょう
 ![](https://minoeru.github.io/markdown/images/Unity/u_16.png)
 
 ### Unity Hub ダウンロード
-Unityをダウンロードするだけでもゲーム開発はできるのですが、集団開発をする際は全員でバージョンを合わせないといけません。なので、様々なバージョンのUnityを起動できるアプリであるUnity Hubをインストールしていきましょう。<br>
+Unityをダウンロードするだけでもゲーム開発はできるのですが、集団開発をする際は全員でバージョンを合わせないといけません。なので、様々なバージョンのUnityを起動できるアプリであるUnity Hubをインストールしていきましょう。
 
-[公式サイト](https://unity3d.com/jp/get-unity/download)にまた移動しましょう。<br>
+
+
+[公式サイト](https://unity3d.com/jp/get-unity/download)にまた移動しましょう。
+
+
 まず、「Unity Hubダウンロード」をクリックしましょう。　
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_1.png)
@@ -110,7 +116,9 @@ Unityを起動すると、ログイン画面が表示されます。アカウン
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_22.png)
 
-アカウントは無いと思うので、新規作成をしましょう。<br>
+アカウントは無いと思うので、新規作成をしましょう。
+
+
 メールアドレス、パスワード、ユーザネーム、フルネームを記入しましょう。
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_23.png)
@@ -128,12 +136,16 @@ Unityを起動すると、ログイン画面が表示されます。アカウン
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_26.png)
 
-ライセンスの選択があるので、無料のPersonalを選択しましょう。<br>
+ライセンスの選択があるので、無料のPersonalを選択しましょう。
+
+
 また、プロフィール我慢では用途などを選択しましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_27.png)
 
-ここまできたらあとはプロジェクトの作成でゲーム開発を始められます。<br>
+ここまできたらあとはプロジェクトの作成でゲーム開発を始められます。
+
+
 右上のNewをクリックし、新しいプロジェクトを作成します
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_28.png)
@@ -154,11 +166,19 @@ Unityを起動すると、ログイン画面が表示されます。アカウン
 環境構築が終わったので、実際に作業を行うことでUnityの使い方を学んでいきましょう。
 以下におすすめのサイトへのリンクを貼っていくので、参考にしてください。
 
-[Unity公式チュートリアル](https://unity3d.com/jp/learn/tutorials)<br>
-Unityの公式が出しているチュートリアルです。Unityは公式のチュートリアルが充実しているので基本的にこれをこなしていくのが良いと思います。形式は動画で作業をしている状態が見えるので、真似していく形です。言語は英語のみなので聞き取りは頑張ってください。<br>
+[Unity公式チュートリアル](https://unity3d.com/jp/learn/tutorials)
 
-[C# によるプログラミング入門](http://ufcpp.net/study/csharp/)<br>
-基本的なことから細かいことまで学べるWebサイトです。<br>
+
+Unityの公式が出しているチュートリアルです。Unityは公式のチュートリアルが充実しているので基本的にこれをこなしていくのが良いと思います。形式は動画で作業をしている状態が見えるので、真似していく形です。言語は英語のみなので聞き取りは頑張ってください。
+
+
+
+[C# によるプログラミング入門](http://ufcpp.net/study/csharp/)
+
+
+基本的なことから細かいことまで学べるWebサイトです。
+
+
 
 
 <!-- [hegehege](#)<br>
