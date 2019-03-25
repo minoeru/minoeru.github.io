@@ -2,14 +2,16 @@
 
 ### 目次
  - Unityとは
- - ダウンロード
+ - Unity ダウンロード
+ - Unity Hub ダウンロード
+ - 初期設定
 
 ### Unityとは
  -  世界中で人気のゲーム開発プラットフォーム
 2D・3D対応のゲーム開発プラットフォーム。
 
-### ダウンロード
-[公式サイト](https://unity3d.com/jp/get-unity/download)からダウンロードしてきましょう。
+### Unity ダウンロード
+[公式サイト](https://unity3d.com/jp/get-unity/download)からダウンロードしてきましょう。<br>
 まず、「Unityを選択 + ダウンロード」をクリックしましょう　
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_1.png)
@@ -72,18 +74,76 @@ Agreeを押しましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_16.png)
 
-右上のNewをクリックし、新しいプロジェクトを作成します
+### Unity Hub ダウンロード
+Unityをダウンロードするだけでもゲーム開発はできるのですが、集団開発をする際は全員でバージョンを合わせないといけません。なので、様々なバージョンのUnityを起動できるアプリであるUnity Hubをインストールしていきましょう。<br>
+
+[公式サイト](https://unity3d.com/jp/get-unity/download)にまた移動しましょう。<br>
+まず、「Unity Hubダウンロード」をクリックしましょう。　
+
+![](https://minoeru.github.io/markdown/images/Unity/u_1.png)
+
+ダウンロードされたファイルを開きましょう
 
 ![](https://minoeru.github.io/markdown/images/Unity/u_17.png)
+
+ライセンス情報が出てくるのでAgreeを押しましょう
+
+![](https://minoeru.github.io/markdown/images/Unity/u_18.png)
+
+開いてます
+
+![](https://minoeru.github.io/markdown/images/Unity/u_19.png)
+
+Unity HubをドラックアンドドロップしてApplicationsに追加しましょう
+
+![](https://minoeru.github.io/markdown/images/Unity/u_20.png)
+
+Unity Hubが追加されたので起動しましょう
+
+![](https://minoeru.github.io/markdown/images/Unity/u_21.png)
+
+### 初期設定
+
+Unityを起動すると、ログイン画面が表示されます。アカウントがある場合はサインインします。
+
+![](https://minoeru.github.io/markdown/images/Unity/u_22.png)
+
+アカウントは無いと思うので、新規作成をしましょう。<br>
+メールアドレス、パスワード、ユーザネーム、フルネームを記入しましょう。
+
+![](https://minoeru.github.io/markdown/images/Unity/u_23.png)
+
+
+![](https://minoeru.github.io/markdown/images/Unity/u_24.png)
+
+上で設定したメールアドレス宛にメールが届くので、URLをクリックしましょう。これでアカウント作成は終了です。
+
+クリックして表示されたページからメールアドレスとパスワードを入力してサインインしましょう
+
+![](https://minoeru.github.io/markdown/images/Unity/u_25.png)
+
+アカウントの作成ができたら、Unityのアプリからサインインしましょう。
+
+![](https://minoeru.github.io/markdown/images/Unity/u_26.png)
+
+ライセンスの選択があるので、無料のPersonalを選択しましょう。<br>
+また、プロフィール我慢では用途などを選択しましょう
+
+![](https://minoeru.github.io/markdown/images/Unity/u_27.png)
+
+ここまできたらあとはプロジェクトの作成でゲーム開発を始められます。<br>
+右上のNewをクリックし、新しいプロジェクトを作成します
+
+![](https://minoeru.github.io/markdown/images/Unity/u_28.png)
 
 - Project name: プロジェクトの名前です
 - Location: 保存する場所を指定します
 - Template : 作成するゲームが2Dか3Dかを選択します
 
-![](https://minoeru.github.io/markdown/images/Unity/u_18.png)
+![](https://minoeru.github.io/markdown/images/Unity/u_29.png)
 
 これが初期画面です
 
-![](https://minoeru.github.io/markdown/images/Unity/u_19.png)
+![](https://minoeru.github.io/markdown/images/Unity/u_30.png)
 
 この先は、[Unityチュートリアル](#)を参考にしてください。
