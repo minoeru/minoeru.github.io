@@ -40,8 +40,10 @@
  ![](https://minoeru.github.io/markdown/images/github/g_7.png)
 
 ### リポジトリの作成
-　次に、リポジトリの作成方法です<br>
-　[GitHub](https://github.com)に移動しましょう<br>
+　次に、リポジトリの作成方法です
+
+　[GitHub](https://github.com)に移動しましょう
+
 　左上にあるCreate a repositoryをクリックします
 
  ![](https://minoeru.github.io/markdown/images/github/g_8.png)
@@ -55,14 +57,17 @@
  ![](https://minoeru.github.io/markdown/images/github/g_10.png)
 
 ### SSH鍵の作成
- このままでも通信はできるのですが、送信されるデータが暗号化されません。なので、SSH鍵を作成していきたいと思います<br>
+ このままでも通信はできるのですが、送信されるデータが暗号化されません。なので、SSH鍵を作成していきたいと思います
+
  (※ここから先は設定しなくても動くので余力のある人だけで大丈夫です)
 
  - SSHとは：
  そもそもSSHとは、Secure SHellの略で、ネットワークを経由して他のコンピュータに接続して遠隔操作を行うための仕組みのことです。この時、通信途中の情報は全て暗号化されるため、安全性を確保して行うことができます。
 
- SSH通信を行うにはSSH鍵が必要になるので、作成していきましょう<br>
- Windows版はOSの問題上SSHが標準で使用できないためSourcetreeにSSH関係のものが付属しているらしいので、Mac版用に必要なことを書いていきます。<br>
+ SSH通信を行うにはSSH鍵が必要になるので、作成していきましょう
+
+ Windows版はOSの問題上SSHが標準で使用できないためSourcetreeにSSH関係のものが付属しているらしいので、Mac版用に必要なことを書いていきます。
+
 
  まず、ターミナルを開きましょう
 
@@ -75,7 +80,8 @@
  ![](https://minoeru.github.io/markdown/images/github/g_12.png)
 
 #### Enter file in which to save the key (/home/vagrant/.ssh/id_rsa):
- と画面に出ると思うので、エンターを押しましょう（明示的に名前をつけることもできますが、今回は初なのでエンターだけで大丈夫です）<br>
+ と画面に出ると思うので、エンターを押しましょう（明示的に名前をつけることもできますが、今回は初なのでエンターだけで大丈夫です）
+
  そうすると
 #### Enter passphrase (empty for no passphrase):
  と画面に出てくると思います。今回は特にパスワードが必要ないため、エンターを押しましょう
@@ -112,7 +118,8 @@
 
  ![](https://minoeru.github.io/markdown/images/github/g_17.png)
 
- id_rsa.pubの中身は、このように開くことで中を見ることができます。<br>
+ id_rsa.pubの中身は、このように開くことで中を見ることができます。
+
  AddKeyをクリックすることで鍵の登録が完了します。
 
  ![](https://minoeru.github.io/markdown/images/github/g_18.png)
