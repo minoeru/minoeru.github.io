@@ -20,7 +20,7 @@ ICTSC2019、ICTSC2020、ICTSC2021夏の陣に続く4度目の出場で、夏の�
 **10 インターネットにつながらない！**
 です。
 
-この問題はiBGPにBGP unnumberedを使用してネットワークの構築を行なっている問題でしたが、チームメンバにこの技術を触ったことがある人がおらず、FRRにも不慣れであったためこの問題が最も時間がかかってしまいました。
+この問題はiBGPにBGP unnumberedを使用してネットワークの構築を行なっている問題でしたが、チームメンバにこの技術を触ったことがある人がおらず、FRRにも不慣れであったため最も時間がかかってしまいました。
 
 [BGP in the Data Center](https://resource.nvidia.com/en-us-bgp-datacenter/bgp-datacenter-ebook)を早く読まねば...という気持ちが高まります。
 
@@ -34,13 +34,13 @@ user@rt02:~$ sudo vtysh
 ```
 - **rt02# show ip bgp neighbors**でネイバー関係を確認するとiBGPとeBGPどちらもネイバー関係が築けていることがわかります。
 - しかし、**rt02# show ip route**で経路を確認すると、経路が広告されていませんでした。
-- そこでまず、以下のコマンドでルーティングを有効化します。
+- そこでまず、ルーティングを有効化します。
 ```
 rt02# conf t
 rt02(config)# ip forwarding
 rt02(config)# ipv6 forwarding
 ```
-- 次に、以下のコマンドでunmumberedを有効化します。
+- 次に、unmumberedを有効化します。
 ```
 rt02(config)# router bgp 65182
 rt02(config-router)# neighbor fc00:1:: capability extended-nexthop
@@ -69,7 +69,7 @@ rt02(config-router)# network 172.16.0.0/24
 ```
 rt02# write memory
 
-`/etc/sysctl.conf`を以下のように書き換える
+/etc/sysctl.confを以下のように書き換える
 - #net.ipv4.ip_forward=1
 + net.ipv4.ip_forward=1
 ```
