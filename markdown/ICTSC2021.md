@@ -68,7 +68,6 @@ rt02(config-router)# network 172.16.0.0/24
 - 最後に、設定の永続化、forwardingの永続化をやってもらい、終了です。
 ```
 rt02# write memory
-
 /etc/sysctl.confを以下のように書き換える
 - #net.ipv4.ip_forward=1
 + net.ipv4.ip_forward=1
