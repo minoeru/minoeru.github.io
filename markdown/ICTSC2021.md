@@ -69,9 +69,10 @@ rt02(config-router)# network 172.16.0.0/24
 ```
 rt02# write memory
 /etc/sysctl.confを以下のように書き換える
-- #net.ipv4.ip_forward=1
-+ net.ipv4.ip_forward=1
+\- #net.ipv4.ip_forward=1
+\+ net.ipv4.ip_forward=1
 ```
+
 
 ## 感想
 弊チームは自分以外のメンバが皆今年度で卒業してしまうため、最後に優勝で終われたのは非常に良かったです。
